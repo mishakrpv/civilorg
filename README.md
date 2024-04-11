@@ -1,11 +1,8 @@
-# Civil Org is Lightweight Minecraft RPG Mod
-
-<div align="center">
-<br />
+# Civil Org is a Lightweight Minecraft RPG Mod
 
 [![license](https://img.shields.io/badge/license-Apache%20V2-blue)](LICENSE)
 
-<br />
-</div>
+### The idea of the mod is to force players to play together, making them unable to do stuff that are somehow related to other classes, but in return giving them new abilities and improvements of their classes.
 
-## The idea of the mod is to force players to play together, making them unable to do stuff that are somehow related to other classes, but in return giving them new abilities and improvements of their classes.
+## Supported Minecraft versions:
+### - `1.20.4`

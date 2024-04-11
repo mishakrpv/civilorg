@@ -4,6 +4,8 @@
   "package": "com.mishakrpv.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "com.mishakrpv.civilorg.mixin.MinecraftServerMixin",
+    "com.mishakrpv.civilorg.mixin.PlayerMixin"
   ],
   "client": [
   ],

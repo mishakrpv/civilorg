@@ -1,4 +1,4 @@
-# Minecraft Lightweight Classes Mod
+# Civil Org is Lightweight Minecraft RPG Mod
 
 <div align="center">
 <br />

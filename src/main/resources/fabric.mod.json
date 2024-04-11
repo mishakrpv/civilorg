@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "mclw-classes-mod",
+  "id": "civilorg",
   "version": "${version}",
-  "name": "mclw-classes-mod",
+  "name": "Civil Org",
   "description": "",
   "authors": [],
   "contact": {
     "repo": "https://github.com/mishakrpv/mclw-classes-mod"
   },
   "license": "Apache-2.0",
-  "icon": "assets/mclw-classes-mod/icon.png",
+  "icon": "assets/mclw-roles-mod/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.mishakrpv.client.ClassesModClient"
+      "com.mishakrpv.civilorg.client.ClientInitializer"
     ],
     "main": [
-      "com.mishakrpv.ClassesMod"
+      "com.mishakrpv.civilorg.Initializer"
     ]
   },
   "mixins": [
-    "mclw-classes-mod.mixins.json"
+    "civilorg.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",

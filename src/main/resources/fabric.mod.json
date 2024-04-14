@@ -9,14 +9,14 @@
     "repo": "https://github.com/mishakrpv/mclw-classes-mod"
   },
   "license": "Apache-2.0",
-  "icon": "assets/mclw-roles-mod/icon.png",
+  "icon": "assets/civilorg/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.mishakrpv.civilorg.client.ClientInitializer"
+      "com.mishakrpv.civilorg.client.ModClient"
     ],
     "main": [
-      "com.mishakrpv.civilorg.Initializer"
+      "com.mishakrpv.civilorg.CivilOrg"
     ]
   },
   "mixins": [

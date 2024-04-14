@@ -1,13 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.mishakrpv.mixin",
+  "package": "com.mishakrpv.civilorg.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "com.mishakrpv.civilorg.mixin.MinecraftServerMixin",
-    "com.mishakrpv.civilorg.mixin.PlayerMixin"
-  ],
-  "client": [
+    "ArgumentTypesMixin",
+    "BowMixin"
   ],
   "injectors": {
     "defaultRequire": 1

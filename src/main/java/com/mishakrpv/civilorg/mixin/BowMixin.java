@@ -1,5 +1,6 @@
 package com.mishakrpv.civilorg.mixin;
 
+import com.mishakrpv.civilorg.client.ModClient;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.BowItem;
 import net.minecraft.item.ItemStack;
@@ -15,7 +16,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public abstract class BowMixin {
     @Inject(method = "use", at = @At("HEAD"), cancellable = true)
     public void dropIfUnableToUse(World world, PlayerEntity user, Hand hand, CallbackInfoReturnable<TypedActionResult<ItemStack>> cir) {
-
-        cir.cancel();
+        if (!ModClient.bowGameRule.doesClientMatch()) {
+            cir.setReturnValue(TypedActionResult.fail(user.getStackInHand(hand)));
+            cir.cancel();
+        }
     }
 }
